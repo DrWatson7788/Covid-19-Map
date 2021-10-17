@@ -1,0 +1,90 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,116,116,1) 40%, rgba(246,28,28,1) 100%); 
+    font-family: "DM Sans", sans-serif;
+    
+}
+.Top_Image{
+    width: 350px;
+    margin-left: 550px;
+   
+
+}
+.Heading_1{
+  
+    margin-left: 330px;
+    color: white;
+    background-color: #ff4d4d;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+   
+    
+}
+
+.button1 {
+  
+  font-size: 30px;
+  margin-left: 350px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  background-color: #006266;
+  
+  border-radius: 20px;
+
+}
+.button2 {
+  
+  font-size: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  color: white;
+  background-color: #006266;
+  
+  border-radius: 20px;
+
+}
+.button3 {
+  
+  font-size: 30px;
+  margin-left: 350px;
+  margin-top: 20px;
+  padding-left: 135px;
+  padding-right: 135px;
+  color: white;
+  background-color: black;
+  
+  border-radius: 20px;
+
+}
+.button4 {
+  
+  font-size: 30px;
+  margin-left: 7px;
+  margin-top: 20px;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  background-color: #003300;
+  
+  border-radius: 20px;
+
+}
+.button5 {
+  
+  font-size: 30px;
+  margin-left: 350px;
+  margin-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: white;
+  background-color: black;
+  
+  border-radius: 20px;
+}

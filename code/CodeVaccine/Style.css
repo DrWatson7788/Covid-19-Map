@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 100vh;
+}
+
+.sidebar{
+  margin-left: 15px;
+}
+
+.map {
+    margin-top: 0px;
+    height: 600px;
+    width: 100%;
+  }
+
+#dialog {
+  text-transform: capitalize;
+  height: 300px;
+  width: 150px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}

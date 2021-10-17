@@ -1,0 +1,48 @@
+{
+    "layers":{
+        "datalayers":[
+
+            {
+                "layerName":"PatientsTotal",
+                "DisplayName":"Covid Patients Total",
+                "type":"geojson",
+                "rgba":"rgba(51, 76, 238, 0.8)",
+                "geoJsonUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3APatientsTotal&maxFeatures=50&outputFormat=application%2Fjson",
+                "epsg":"EPSG:4326",
+                "LegendUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3APatientsTotal&maxFeatures=50&outputFormat=application%2Fjson"
+            } ,
+            {
+                "layerName":"PatientsMonth",
+                "DisplayName":"Covid Patients Month",
+                "type":"geojson",
+                "rgba":"rgba(51, 76, 238, 0.8)",
+                "geoJsonUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3APatientsMonth&maxFeatures=50&outputFormat=application%2Fjson",
+                "epsg":"EPSG:4326",
+                "LegendUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3APatientsMonth&maxFeatures=50&outputFormat=application%2Fjson"
+            },
+            {
+                "layerName":"Vaccine",
+                "DisplayName":"Vaccine",
+                "type":"geojson",
+                "rgba":"rgba(51, 76, 238, 0.8)",
+                "geoJsonUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3ACovidDeaths&maxFeatures=50&outputFormat=application%2Fjson",
+                "epsg":"EPSG:4326",
+                "LegendUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3ACovidDeaths&maxFeatures=50&outputFormat=application%2Fjson"
+            } ,
+            {
+                "layerName":"CovidDeaths",
+                "DisplayName":"Covid Deaths",
+                "type":"geojson",
+                "rgba":"rgba(51, 76, 238, 0.8)",
+                "geoJsonUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3ACovidDeaths&maxFeatures=50&outputFormat=application%2Fjson",
+                "epsg":"EPSG:4326",
+                "LegendUrl":"http://localhost:8080/geoserver/Covid19/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Covid19%3ACovidDeaths&maxFeatures=50&outputFormat=application%2Fjson"
+            }     
+
+        ]
+    
+    
+}
+
+}
+

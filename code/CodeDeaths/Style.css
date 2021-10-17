@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 100vh;
+}
+
+.sidebar{
+  margin-left: 15px;
+}
+
+.map {
+    margin-top: 0px;
+    height: 600px;
+    width: 100%;
+  }
+
+#dialog {
+  height: 300px;
+  width: 150px;
+  text-transform: capitalize;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+ 
+
+
