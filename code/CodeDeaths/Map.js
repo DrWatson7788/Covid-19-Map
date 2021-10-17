@@ -242,6 +242,7 @@ function init() {
 
                         break;
                     case 'B':
+                        
                         break;
                 }
                 $("#dialog").dialog({
